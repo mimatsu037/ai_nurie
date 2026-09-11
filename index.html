@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【無料プレゼント】AIぬりえ本 販売ガイド｜在庫リスク0でAmazonに並べる ＋コピペOKプロンプト | みな｜AI×SNSで在宅収入を叶える主婦</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Shippori+Mincho:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    screens: { 'xs': '375px', 'sm': '480px' },
+                    colors: {
+                        brand: {
+                            light: '#FAF0EC',
+                            peach: '#FFF5F0',
+                            coral: '#E89A91',
+                            deep: '#DE7A70',
+                            accent: '#D4AF37',
+                            dark: '#4A3E3D',
+                            line: '#06C755'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Noto Sans JP', 'sans-serif'],
+                        serif: ['Shippori Mincho', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Noto Sans JP', 'sans-serif'; color: #4A3E3D; background-color: #FAF0EC; }
+        .serif-title { font-family: 'Shippori Mincho', 'serif'; }
+        .toast { transition: opacity 0.3s ease, transform 0.3s ease; }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+            100% { transform: scale(1); }
+        }
+        .pulse-btn { animation: heartbeat 2s infinite ease-in-out; }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-coral selection:text-white">
+
+    <div id="toast" class="toast fixed top-5 left-1/2 -translate-x-1/2 z-50 bg-brand-deep text-white px-6 py-3 rounded-full shadow-lg font-bold text-sm tracking-wider opacity-0 pointer-events-none transform translate-y-[-10px]">
+        <i class="fa-solid fa-circle-check mr-2"></i>プロンプトをコピーしました！
+    </div>
+
+    <div id="top" class="max-w-[640px] mx-auto bg-white min-h-screen shadow-xl flex flex-col overflow-x-hidden">
+
+        <!-- ============ ヘッダー ============ -->
+        <header class="relative text-center bg-gradient-to-b from-brand-peach to-white pt-10 pb-6 px-4 border-b border-brand-light">
+            <div class="inline-block bg-brand-coral text-white text-[10px] xs:text-xs font-bold px-3.5 py-1 rounded-full tracking-wider mb-3 shadow-sm">
+                2026年最新ノウハウ公開！
+            </div>
+
+            <p class="text-xs xs:text-sm font-bold text-brand-deep tracking-tight mb-2">
+                絵心ゼロ・文章ゼロ・英語ゼロでも大丈夫
+            </p>
+
+            <h1 class="serif-title text-xl xs:text-2xl sm:text-3xl font-extrabold text-brand-dark leading-snug mb-3 px-1">
+                <span class="text-brand-deep block relative inline-block">
+                    AI × ぬりえ本
+                    <span class="absolute left-0 bottom-1 w-full h-2 bg-brand-coral opacity-25 -z-10"></span>
+                </span>
+                <span class="text-brand-deep block relative inline-block">
+                    販売ガイド
+                </span>
+                <span class="text-sm xs:text-base sm:text-lg block mt-1 text-brand-accent font-bold">＋そのままコピペで使えるプロンプト</span>
+            </h1>
+
+            <p class="text-[10px] xs:text-xs font-medium text-gray-400 mb-5">
+                ＼ 在庫リスク0で、あなたのぬりえ本をAmazonに並べる ／
+            </p>
+
+            <a href="https://www.instagram.com/mina_ai_fukugyo/" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 bg-brand-light/50 hover:bg-brand-light transition-colors p-3 rounded-2xl max-w-sm mx-auto mb-4 border border-brand-light group">
+                <img src="https://i.imgur.com/HWua8hF.png"
+                     onerror="this.src='https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200&h=200';this.onerror=null;"
+                     alt="みな"
+                     class="w-11 h-11 rounded-full object-cover border-2 border-white shadow group-hover:scale-105 transition-transform">
+                <div class="text-left">
+                    <p class="text-[10px] text-gray-500 font-bold">AI×SNSで在宅収入を叶える主婦</p>
+                    <p class="text-xs xs:text-sm font-extrabold text-brand-dark flex items-center gap-1">
+                        みな
+                        <span class="text-[10px] font-normal text-brand-deep bg-brand-peach px-1.5 py-0.5 rounded">
+                            <i class="fa-brands fa-instagram mr-0.5"></i>@mina_ai_fukugyo
+                        </span>
+                    </p>
+                </div>
+                <i class="fa-solid fa-chevron-right text-gray-300 text-xs ml-auto group-hover:translate-x-1 transition-transform"></i>
+            </a>
+        </header>
+
+        <!-- ============ 悩み ============ -->
+        <section class="py-8 px-6">
+            <div class="bg-white p-5 xs:p-6 rounded-3xl shadow-sm border border-brand-light">
+                <h3 class="text-sm xs:text-base font-bold text-center text-brand-deep mb-5 flex items-center justify-center gap-1">
+                    🫧 こんな気持ち、抱えていませんか？
+                </h3>
+
+                <ul class="space-y-4 text-xs xs:text-sm text-brand-dark leading-relaxed">
+                    <li class="flex items-start gap-2.5">
+                        <span class="text-brand-coral text-base mt-0.5">😔</span>
+                        <span>レジで合計金額を見るたびに小さくため息。<br><strong>毎月のやりくりに、ずっと余裕がない</strong></span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <span class="text-brand-coral text-base mt-0.5">😔</span>
+                        <span>「子どもがやりたいことは、全部やらせてあげたい」<br>でも<strong>外に働きに出るまとまった時間はない</strong></span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <span class="text-brand-coral text-base mt-0.5">😔</span>
+                        <span>在宅の仕事に興味はあるけれど、<br><strong>「これといったスキルがないから」と最初の一歩が踏み出せない</strong></span>
+                    </li>
+                </ul>
+
+                <div class="mt-6 pt-6 border-t border-dashed border-brand-light text-center">
+                    <p class="text-xs xs:text-sm leading-relaxed font-bold">
+                        その悩み、<span class="text-brand-deep font-black bg-brand-peach px-1.5 py-0.5 rounded">「AIぬりえ販売」</span>で解決できます！✊
+                    </p>
+                    <p class="text-[11px] text-gray-500 mt-2 leading-relaxed">
+                        線画のイラストはAIにおまかせ。ストーリーもセリフも要りません。<br>
+                        子どもを寝かしつけたあとの<strong>30分</strong>を、コツコツ積み上げるだけ。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ なぜ「ぬりえ本」なのか ============ -->
+        <section class="py-6 px-6 bg-brand-peach/20">
+            <div class="bg-white p-5 rounded-2xl border border-brand-light">
+                <h3 class="text-xs xs:text-sm font-extrabold text-brand-deep mb-3 flex items-center gap-1.5">
+                    <i class="fa-solid fa-crayon"></i> なぜ、絵本より「ぬりえ本」から始めるのがいいのか
+                </h3>
+                <ul class="space-y-2.5 text-[11px] xs:text-xs text-brand-dark leading-relaxed">
+                    <li class="flex gap-2"><span class="text-brand-accent">◎</span><span><strong>物語を書かなくていい</strong>：必要なのは「1ページ＝1モチーフの線画」だけ。文章が苦手でも関係ありません。</span></li>
+                    <li class="flex gap-2"><span class="text-brand-accent">◎</span><span><strong>ページを量産しやすい</strong>：1枚のスタイルが決まれば、あとはモチーフを変えるだけ。12ページでも1テーマで通せます。</span></li>
+                    <li class="flex gap-2"><span class="text-brand-accent">◎</span><span><strong>ニッチが細かく分かれている</strong>：大人の塗り絵・ボタニカル・マンダラ・北欧柄・動物・和柄・季節行事…。空いている棚がまだあります。</span></li>
+                    <li class="flex gap-2"><span class="text-brand-accent">◎</span><span><strong>在庫を持たない</strong>：印刷・梱包・発送はすべてAmazon（KDP）任せ。注文が入ってから1冊ずつ印刷されます。</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ============ 実例 ============ -->
+        <section class="py-6 px-6">
+            <div class="flex items-center gap-2.5 mb-4">
+                <span class="bg-brand-coral text-white font-black text-xs px-2.5 py-1 rounded-lg shrink-0">実例</span>
+                <h2 class="text-base font-extrabold text-brand-dark">ぬりえ本、実はしっかり売れています</h2>
+            </div>
+            <p class="text-xs xs:text-sm leading-relaxed mb-4">
+                Amazonで「大人の塗り絵」「子ども ぬりえ」と検索すると、個人が作った本がずらりと並び、<br>
+                レビューが数十件ついている本もめずらしくありません。
+            </p>
+            <div class="grid grid-cols-2 gap-3 mb-4">
+                <div class="bg-brand-peach/40 p-4 rounded-2xl border border-brand-light text-center">
+                    <span class="text-lg">💰</span>
+                    <p class="text-[10px] text-gray-500 font-bold mt-1">価格の目安</p>
+                    <p class="text-xs xs:text-sm font-black text-brand-deep mt-0.5">1冊 800〜1,500円</p>
+                </div>
+                <div class="bg-brand-peach/40 p-4 rounded-2xl border border-brand-light text-center">
+                    <span class="text-lg">⭐</span>
+                    <p class="text-[10px] text-gray-500 font-bold mt-1">レビュー</p>
+                    <p class="text-xs xs:text-sm font-black text-brand-deep mt-0.5">50件超の本も</p>
+                </div>
+            </div>
+            <p class="text-[11px] text-gray-500 leading-relaxed">
+                とくに<strong>大人の塗り絵は「シリーズで買い足される」</strong>のが強み。1冊気に入ってもらえると、次の号も手に取ってもらいやすくなります。今のうちに動き方を知っておくのがおすすめです。
+            </p>
+        </section>
+
+        <!-- ============ 5ステップ概要 ============ -->
+        <section class="py-6 px-6 bg-brand-peach/20">
+            <h2 class="text-base font-extrabold text-brand-dark text-center mb-5">
+                たった5ステップで、Amazonに並ぶまで 🎉
+            </h2>
+            <div class="grid grid-cols-5 gap-1.5 text-center">
+                <div class="p-1">
+                    <div class="w-10 h-10 mx-auto bg-white rounded-full border border-brand-light flex items-center justify-center text-base shadow-sm">🔍</div>
+                    <p class="text-[9px] font-bold mt-1.5 text-brand-dark leading-tight">リサーチ</p>
+                </div>
+                <div class="p-1">
+                    <div class="w-10 h-10 mx-auto bg-white rounded-full border border-brand-light flex items-center justify-center text-base shadow-sm">🎨</div>
+                    <p class="text-[9px] font-bold mt-1.5 text-brand-dark leading-tight">1枚試作</p>
+                </div>
+                <div class="p-1">
+                    <div class="w-10 h-10 mx-auto bg-white rounded-full border border-brand-light flex items-center justify-center text-base shadow-sm">✏️</div>
+                    <p class="text-[9px] font-bold mt-1.5 text-brand-dark leading-tight">12P量産</p>
+                </div>
+                <div class="p-1">
+                    <div class="w-10 h-10 mx-auto bg-white rounded-full border border-brand-light flex items-center justify-center text-base shadow-sm">📐</div>
+                    <p class="text-[9px] font-bold mt-1.5 text-brand-dark leading-tight">Canva製本</p>
+                </div>
+                <div class="p-1">
+                    <div class="w-10 h-10 mx-auto bg-white rounded-full border border-brand-light flex items-center justify-center text-base shadow-sm">📦</div>
+                    <p class="text-[9px] font-bold mt-1.5 text-brand-dark leading-tight">KDP販売</p>
+                </div>
+            </div>
+            <p class="text-[10px] text-gray-400 text-center mt-4 leading-relaxed">
+                売れてるものを調べる → テーマを決めて1枚だけ試す → 良ければ12ページに増やす → 本にする → 出す。<br>いきなり量産しないのがコツです。
+            </p>
+        </section>
+
+        <!-- ============ STEP 1 ============ -->
+        <section class="py-8 px-6">
+            <div class="flex items-center gap-2.5 mb-4">
+                <span class="bg-brand-coral text-white font-black text-xs px-2.5 py-1 rounded-lg shrink-0">STEP 1</span>
+                <h2 class="text-base font-extrabold text-brand-dark">🔍 売れてる塗り絵をリサーチする</h2>
+            </div>
+            <p class="text-xs xs:text-sm leading-relaxed mb-4">
+                いきなり作り始めず、まず「今、何が売れているか」を知ることから。<br>
+                ChatGPTでも大まかな傾向はつかめますが、より確実に調べたいときは
+                Web検索ができるAI（検索機能ONのChatGPT、Perplexity、Gensparkなど）がおすすめです。
+            </p>
+
+            <div class="bg-brand-dark text-white rounded-2xl shadow-md overflow-hidden mb-4">
+                <div class="bg-[#3A302F] px-4 py-3 flex justify-between items-center border-b border-white/10">
+                    <div class="flex items-center gap-2">
+                        <span class="w-2.5 h-2.5 rounded-full bg-brand-coral"></span>
+                        <span class="text-[11px] text-gray-300 font-bold">① 売れ筋リサーチプロンプト</span>
+                    </div>
+                    <button onclick="copyToClipboard('p1', this)" class="text-[10px] text-white bg-brand-coral hover:bg-brand-deep transition-colors px-2.5 py-1 rounded-md font-bold flex items-center gap-1 shrink-0">
+                        <i class="fa-regular fa-copy"></i><span>コピー</span>
+                    </button>
+                </div>
+                <div class="p-3 overflow-x-auto">
+<pre id="p1" class="text-[10px] leading-relaxed font-mono whitespace-pre-wrap select-all">あなたは、Amazonのぬりえ本市場にくわしいリサーチ担当者です。
+Amazon.co.jpで「塗り絵」「大人の塗り絵」「coloring book」などのキーワードを
+検索し、実際の商品ページをもとに市場調査をしてください。
+
+【私の状況】
+・興味のある方向性：［　例：ボタニカル・マンダラ・動物など、なんとなくでOK　］
+・想定読者：［　例：仕事や育児の合間に5〜15分で気分をリセットしたい20〜40代女性　］
+
+【調べてほしいこと】
+1. レビュー数が多い（30件以上が目安）本を5〜10冊ピックアップし、
+   「テーマ・モチーフ」「タイトルの付け方」「価格」「ページ数」を一覧化
+2. そこから見える「売れているテーマの傾向」を3つに整理
+3. 逆に「本の数がまだ少なく、今から狙えそうなニッチ」を3つ提案
+   （それぞれ理由を一言）
+
+表の形式で出力してください。</pre>
+                </div>
+            </div>
+            <div class="bg-brand-peach/40 p-3.5 rounded-xl border border-brand-light text-[11px] xs:text-xs leading-relaxed">
+                🌷 <strong>ヒント</strong>：「スキマ時間で塗れる（1枚15分）」「ボタニカル・マンダラなどおしゃれ系」「ストレス発散・自律神経を整える」など、<u>20〜40代の誰の悩みに寄せるか</u>が見えてくると、次のテーマ選びがぐっと楽になります。
+            </div>
+        </section>
+
+        <!-- ============ STEP 2 ============ -->
+        <section class="py-8 px-6 bg-brand-peach/10">
+            <div class="flex items-center gap-2.5 mb-4">
+                <span class="bg-brand-coral text-white font-black text-xs px-2.5 py-1 rounded-lg shrink-0">STEP 2</span>
+                <h2 class="text-base font-extrabold text-brand-dark">🎨 テーマを決めて、まず1枚だけ試作する</h2>
+            </div>
+            <p class="text-xs xs:text-sm leading-relaxed mb-4">
+                リサーチ結果から、需要がありそうなテーマを1つに絞ります。<br>
+                いきなり全ページ作らず、<strong>お試しで1枚だけ</strong>線画にしてみるのがポイント。
+                同じチャットで続けて送ってください。
+            </p>
+
+            <div class="bg-brand-dark text-white rounded-2xl shadow-md overflow-hidden mb-4">
+                <div class="bg-[#3A302F] px-4 py-3 flex justify-between items-center border-b border-white/10">
+                    <div class="flex items-center gap-2">
+                        <span class="w-2.5 h-2.5 rounded-full bg-brand-coral"></span>
+                        <span class="text-[11px] text-gray-300 font-bold">② テーマ決定＆お試し1枚プロンプト</span>
+                    </div>
+                    <button onclick="copyToClipboard('p2', this)" class="text-[10px] text-white bg-brand-coral hover:bg-brand-deep transition-colors px-2.5 py-1 rounded-md font-bold flex items-center gap-1 shrink-0">
+                        <i class="fa-regular fa-copy"></i><span>コピー</span>
+                    </button>
+                </div>
+                <div class="p-3 overflow-x-auto">
+<pre id="p2" class="text-[10px] leading-relaxed font-mono whitespace-pre-wrap select-all">さきほどのリサーチ結果をもとに、私が作るぬりえ本のテーマを
+1つに決めたいです。
+
+【お願い】
+1. リサーチで見つけたニッチの中から、私の条件に一番合うものを1つ選び、
+   理由を3行で
+2. 選んだテーマのコンセプトを一言で（例：「〇〇な人のための、△△ぬりえ」）
+3. まずはお試しで1ページ分だけ作ります。そのテーマに合うモチーフを1つ選び、
+   画像生成AIに入れる「線画（ぬりえ）用の英語プロンプト」を1つ作成してください。
+
+【線画の条件（英語で記述）】
+・black and white line art / coloring book page
+・clean bold even outlines, no shading, no grayscale, no fill
+・plenty of white space to color, simple background
+・centered composition, printable, high contrast
+・aspect ratio 1:1
+・線の量：［　例：ざっくり塗れる太めの線（初心者向け）／ 細かめでじっくり没入（マンダラ等）　］
+
+日本語のモチーフ説明と、英語プロンプトをセットで出してください。</pre>
+                </div>
+            </div>
+            <div class="bg-white p-3.5 rounded-xl border border-brand-light text-[11px] xs:text-xs leading-relaxed mb-2">
+                🖍️ <strong>1枚できたら、この4点だけ確認</strong><br>
+                ① 線が切れている／薄すぎないか（印刷で消えます）<br>
+                ② 影やグレーが入っていないか（入っていたら「no shading, pure white background」を足す）<br>
+                ③ 細かすぎて塗れない部分がないか<br>
+                ④ 自分がそのテーマを「あと11枚分」考えられそうか
+            </div>
+            <div class="bg-[#FEF9E7] border-l-4 border-yellow-400 p-3.5 rounded-r-xl text-[10px] xs:text-xs leading-relaxed">
+                ⚠️ 既存キャラクター・ロゴ・実在の人物・ブランド品はモチーフにしないでください。オリジナルの動物・植物・模様・風景なら安心です。
+            </div>
+        </section>
+
+        <!-- ============ STEP 3 ============ -->
+        <section class="py-8 px-6">
+            <div class="flex items-center gap-2.5 mb-4">
+                <span class="bg-brand-coral text-white font-black text-xs px-2.5 py-1 rounded-lg shrink-0">STEP 3</span>
+                <h2 class="text-base font-extrabold text-brand-dark">✏️ 1枚OKなら、12ページ分に量産する</h2>
+            </div>
+            <p class="text-xs xs:text-sm leading-relaxed mb-4">
+                お試しの1枚が気に入ったら、<strong>同じスタイルのまま12ページ</strong>に増やします。<br>
+                ここでも同じチャットで続けて送るだけでOKです。
+            </p>
+
+            <div class="bg-brand-dark text-white rounded-2xl shadow-md overflow-hidden mb-4">
+                <div class="bg-[#3A302F] px-4 py-3 flex justify-between items-center border-b border-white/10">
+                    <div class="flex items-center gap-2">
+                        <span class="w-2.5 h-2.5 rounded-full bg-brand-coral"></span>
+                        <span class="text-[11px] text-gray-300 font-bold">③ 12ページ量産プロンプト</span>
+                    </div>
+                    <button onclick="copyToClipboard('p3', this)" class="text-[10px] text-white bg-brand-coral hover:bg-brand-deep transition-colors px-2.5 py-1 rounded-md font-bold flex items-center gap-1 shrink-0">
+                        <i class="fa-regular fa-copy"></i><span>コピー</span>
+                    </button>
+                </div>
+                <div class="p-3 overflow-x-auto">
+<pre id="p3" class="text-[10px] leading-relaxed font-mono whitespace-pre-wrap select-all">1枚目の線画、いい感じでした。このスタイルのまま、本1冊分
+（12ページ）に増やしたいです。
+
+【お願い】
+1枚目と同じ「線の太さ・構図の余白・雰囲気」を保ったまま、同じテーマの
+中で違うモチーフを11個選び、画像生成AI用の英語プロンプトを合計12ページ分
+つくってください（1枚目もあわせて12ページ）。
+
+【モチーフの並べ方】
+簡単なもの → やや凝ったもの の順に、少しずつ難易度が上がるように並べる
+
+【出力フォーマット】
+- ページ番号
+- 日本語のモチーフ説明（1行）
+- 画像生成AIに貼り付ける英語プロンプト
+
+まず 1〜4ページ分を出力してください。残りは「続き」と言ったら出してください。</pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ STEP 4 ============ -->
+        <section class="py-8 px-6 bg-brand-peach/10">
+            <div class="flex items-center gap-2.5 mb-4">
+                <span class="bg-brand-coral text-white font-black text-xs px-2.5 py-1 rounded-lg shrink-0">STEP 4</span>
+                <h2 class="text-base font-extrabold text-brand-dark">📐 Canvaで1冊の本に組む</h2>
+            </div>
+            <p class="text-xs xs:text-sm leading-relaxed mb-4">
+                線画がそろったら、Canvaでページを並べていきます。<br>
+                絵本と違って<strong>文字はほぼ不要</strong>。配置のルールだけ守ればOKです。
+            </p>
+            <div class="space-y-3">
+                <div class="flex items-start gap-3 bg-white p-3.5 rounded-xl border border-brand-light shadow-sm">
+                    <span class="bg-brand-coral text-white font-bold w-5 h-5 flex items-center justify-center rounded-full text-[10px] shrink-0 mt-0.5">1</span>
+                    <p class="text-xs xs:text-sm text-brand-dark">「カスタムサイズ」で <strong>21.59×27.94cm（8.5×11インチ）</strong> を作成（KDPで定番のサイズ）</p>
+                </div>
+                <div class="flex items-start gap-3 bg-white p-3.5 rounded-xl border border-brand-light shadow-sm">
+                    <span class="bg-brand-coral text-white font-bold w-5 h-5 flex items-center justify-center rounded-full text-[10px] shrink-0 mt-0.5">2</span>
+                    <p class="text-xs xs:text-sm text-brand-dark">線画は<strong>各ページ中央に、周囲1.5〜2cmの余白</strong>を残して1枚ずつ配置</p>
+                </div>
+                <div class="flex items-start gap-3 bg-white p-3.5 rounded-xl border border-brand-light shadow-sm">
+                    <span class="bg-brand-coral text-white font-bold w-5 h-5 flex items-center justify-center rounded-full text-[10px] shrink-0 mt-0.5">3</span>
+                    <p class="text-xs xs:text-sm text-brand-dark">裏写り対策で、<strong>絵は奇数ページだけ／偶数ページは白紙</strong>にするか、本文を「片面印刷」で作る</p>
+                </div>
+                <div class="flex items-start gap-3 bg-white p-3.5 rounded-xl border border-brand-light shadow-sm">
+                    <span class="bg-brand-coral text-white font-bold w-5 h-5 flex items-center justify-center rounded-full text-[10px] shrink-0 mt-0.5">4</span>
+                    <p class="text-xs xs:text-sm text-brand-dark">最初に<strong>中扉（タイトルページ）</strong>、次に<strong>「この本の使い方」1ページ</strong>を入れると親切</p>
+                </div>
+                <div class="flex items-start gap-3 bg-white p-3.5 rounded-xl border border-brand-light shadow-sm">
+                    <span class="bg-brand-coral text-white font-bold w-5 h-5 flex items-center justify-center rounded-full text-[10px] shrink-0 mt-0.5">5</span>
+                    <p class="text-xs xs:text-sm text-brand-dark"><strong>表紙は別データ</strong>で作成（塗った状態の見本や、色つきのタイトルで華やかに）</p>
+                </div>
+                <div class="flex items-start gap-3 bg-white p-3.5 rounded-xl border border-brand-light shadow-sm">
+                    <span class="bg-brand-coral text-white font-bold w-5 h-5 flex items-center justify-center rounded-full text-[10px] shrink-0 mt-0.5">6</span>
+                    <p class="text-xs xs:text-sm text-brand-dark">本文・表紙をそれぞれ <strong>PDF（印刷用）</strong> でダウンロード</p>
+                </div>
+            </div>
+            <p class="text-[11px] text-gray-500 mt-4 leading-relaxed">
+                🌷 表紙のタイトル案は、このあとのプロンプト④でまとめて出せます。
+            </p>
+        </section>
+
+        <!-- ============ STEP 5 ============ -->
+        <section class="py-8 px-6">
+            <div class="flex items-center gap-2.5 mb-4">
+                <span class="bg-brand-coral text-white font-black text-xs px-2.5 py-1 rounded-lg shrink-0">STEP 5</span>
+                <h2 class="text-base font-extrabold text-brand-dark">📦 Amazon KDPで販売する</h2>
+            </div>
+            <p class="text-xs xs:text-sm leading-relaxed mb-4">
+                PDFができたら、いよいよAmazonへ。<br>
+                <a href="https://kdp.amazon.co.jp/" target="_blank" rel="noopener noreferrer" class="text-brand-deep font-bold hover:underline"><i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i> Amazon KDP 公式サイト</a>
+            </p>
+            <div class="space-y-3 mb-5">
+                <div class="flex items-start gap-3 bg-white p-3.5 rounded-xl border border-brand-light shadow-sm">
+                    <span class="bg-brand-coral text-white font-bold w-5 h-5 flex items-center justify-center rounded-full text-[10px] shrink-0 mt-0.5">1</span>
+                    <p class="text-xs xs:text-sm text-brand-dark">KDPアカウントを作成し、<strong>「ペーパーバック」</strong>を選択</p>
+                </div>
+                <div class="flex items-start gap-3 bg-white p-3.5 rounded-xl border border-brand-light shadow-sm">
+                    <span class="bg-brand-coral text-white font-bold w-5 h-5 flex items-center justify-center rounded-full text-[10px] shrink-0 mt-0.5">2</span>
+                    <p class="text-xs xs:text-sm text-brand-dark">タイトル・著者名・<strong>紹介文</strong>・<strong>キーワード7枠</strong>・カテゴリーを入力</p>
+                </div>
+                <div class="flex items-start gap-3 bg-white p-3.5 rounded-xl border border-brand-light shadow-sm">
+                    <span class="bg-brand-coral text-white font-bold w-5 h-5 flex items-center justify-center rounded-full text-[10px] shrink-0 mt-0.5">3</span>
+                    <p class="text-xs xs:text-sm text-brand-dark">本文PDFと表紙PDFをアップロード → <strong>プレビューで全ページ確認</strong></p>
+                </div>
+                <div class="flex items-start gap-3 bg-white p-3.5 rounded-xl border border-brand-light shadow-sm">
+                    <span class="bg-brand-coral text-white font-bold w-5 h-5 flex items-center justify-center rounded-full text-[10px] shrink-0 mt-0.5">4</span>
+                    <p class="text-xs xs:text-sm text-brand-dark">価格を設定（目安 <strong>900〜1,500円</strong>）して販売を申請（KDPの「出版」ボタン）。審査はおおむね数日</p>
+                </div>
+            </div>
+
+            <div class="bg-brand-dark text-white rounded-2xl shadow-md overflow-hidden mb-4">
+                <div class="bg-[#3A302F] px-4 py-3 flex justify-between items-center border-b border-white/10">
+                    <div class="flex items-center gap-2">
+                        <span class="w-2.5 h-2.5 rounded-full bg-brand-coral"></span>
+                        <span class="text-[11px] text-gray-300 font-bold">④ タイトル・紹介文・キーワード一括作成</span>
+                    </div>
+                    <button onclick="copyToClipboard('p4', this)" class="text-[10px] text-white bg-brand-coral hover:bg-brand-deep transition-colors px-2.5 py-1 rounded-md font-bold flex items-center gap-1 shrink-0">
+                        <i class="fa-regular fa-copy"></i><span>コピー</span>
+                    </button>
+                </div>
+                <div class="p-3 overflow-x-auto">
+<pre id="p4" class="text-[10px] leading-relaxed font-mono whitespace-pre-wrap select-all">私のぬりえ本の、Amazon商品ページ用のコピーをまとめて作ってください。
+
+【本の内容】
+・テーマ：［　　　　］
+・想定読者：［　例：手を動かしてストレス発散したい20〜40代　］
+・ページ数：［　例：本文12ページ（線画12点）　］
+・特徴：［　例：線が太めで塗りやすい／片面印刷で裏写りしにくい　］
+
+【出してほしいもの】
+1. タイトル案 10個（全角25字前後・内容に嘘を足さない・「大人の塗り絵」等の検索語を自然に含める）
+2. サブタイトル案 5個
+3. 紹介文（商品説明）2案：それぞれ200〜300字。1案は「読者の悩み」から、
+   1案は「この本で過ごせる時間」から書き出す
+4. KDPキーワード7枠の候補（検索されそうな語を、重複しないように）
+5. 想定カテゴリー 2つ
+
+最後に、いちばん推せるタイトル＋紹介文の組み合わせを1つ選び、理由を教えてください。</pre>
+                </div>
+            </div>
+
+            <div class="bg-brand-dark text-white rounded-2xl shadow-md overflow-hidden mb-4">
+                <div class="bg-[#3A302F] px-4 py-3 flex justify-between items-center border-b border-white/10">
+                    <div class="flex items-center gap-2">
+                        <span class="w-2.5 h-2.5 rounded-full bg-brand-coral"></span>
+                        <span class="text-[11px] text-gray-300 font-bold">⑤ 次の1冊につなげる「シリーズ設計」</span>
+                    </div>
+                    <button onclick="copyToClipboard('p5', this)" class="text-[10px] text-white bg-brand-coral hover:bg-brand-deep transition-colors px-2.5 py-1 rounded-md font-bold flex items-center gap-1 shrink-0">
+                        <i class="fa-regular fa-copy"></i><span>コピー</span>
+                    </button>
+                </div>
+                <div class="p-3 overflow-x-auto">
+<pre id="p5" class="text-[10px] leading-relaxed font-mono whitespace-pre-wrap select-all">今作ったぬりえ本を「1冊で終わらせない」ための計画を立ててください。
+
+【前提】
+・1冊目のテーマ：［　　　　］
+・読者：［　例：ストレス発散したい20〜40代　］
+
+【お願い】
+1. 同じ読者がそのまま買い足したくなる「続刊テーマ」を6つ、季節や難易度の
+   バリエーションで提案（例：春の花 → 夏の花 → 秋 → 冬 → 花束 → 世界の花）
+2. シリーズ共通で使える「ブランド名（叢書名）」案を5つ
+3. 表紙で “シリーズ感” を出すための、変える要素・変えない要素の整理
+4. 2冊目を最短で出すために、1冊目の作業から流用できるものリスト
+
+表にまとめてください。</pre>
+                </div>
+            </div>
+
+            <div class="bg-[#FEF9E7] border-l-4 border-yellow-400 p-3.5 rounded-r-xl text-[10px] xs:text-xs leading-relaxed">
+                ⚠️ <strong>販売前チェック</strong>：①全ページの線が印刷で消えない濃さか　②裏写りしない構成か（片面 or 偶数白紙）　③表紙の文字が内容と合っているか　④他者の権利物が写り込んでいないか。この4つは自分の目で確認してから申請してくださいね。
+            </div>
+        </section>
+
+        <div class="px-6 py-4">
+            <div class="w-full rounded-2xl overflow-hidden shadow-sm border border-brand-light bg-brand-peach/10">
+                <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80&w=600&h=260"
+                     onerror="this.style.display='none';"
+                     alt="イメージ画像"
+                     class="w-full h-auto object-cover max-h-[180px]">
+            </div>
+        </div>
+
+        <!-- ============ 正直に言います ============ -->
+        <section class="py-8 px-6">
+            <div class="bg-white p-5 xs:p-6 rounded-3xl border border-brand-coral/30 shadow-sm">
+                <p class="text-xs xs:text-sm leading-relaxed font-bold text-center mb-4">
+                    ⚠️ ここで、<span class="text-brand-deep border-b-2 border-brand-coral">正直にお伝えしたいこと</span>があります。
+                </p>
+                <p class="text-[11px] xs:text-xs text-gray-500 leading-relaxed text-center mb-4">
+                    ここまで読んで「手順が分かったから、自分でもできそう」と感じたかもしれません。<br>
+                    でも実は、<strong>「やり方を知っていること」と「続けて収入になること」は別物</strong>なんです。
+                </p>
+                <div class="space-y-2.5 bg-brand-peach/40 p-4 rounded-xl border border-brand-light/60">
+                    <div class="flex items-start gap-2 text-[11px] xs:text-xs">
+                        <span class="text-brand-coral">🤔</span><p>どのテーマ・難易度なら「今」買われるの？</p>
+                    </div>
+                    <div class="flex items-start gap-2 text-[11px] xs:text-xs">
+                        <span class="text-brand-coral">🤔</span><p>表紙とタイトルで「選ばれる」本と、埋もれる本の差は？</p>
+                    </div>
+                    <div class="flex items-start gap-2 text-[11px] xs:text-xs">
+                        <span class="text-brand-coral">🤔</span><p>1冊で止めず、シリーズで安定した収入にしていくには？</p>
+                    </div>
+                </div>
+                <p class="text-[11px] text-gray-500 mt-4 text-center leading-relaxed">
+                    このあたりでつまずいて、そっと諦めてしまう方がいちばん多いんです。🥺
+                </p>
+            </div>
+        </section>
+
+        <!-- ============ 私の失敗（ストーリー） ============ -->
+        <section class="py-12 px-6 bg-gradient-to-b from-brand-peach to-white border-t border-brand-light">
+            <h2 class="serif-title text-base xs:text-lg font-bold text-center text-brand-dark mb-8 relative inline-block w-full">
+                最後に、私自身の話を少しだけ
+                <span class="block w-12 h-1 bg-brand-coral mx-auto mt-2 rounded-full"></span>
+            </h2>
+
+            <div class="bg-brand-dark text-[#F7F5F5] rounded-3xl p-5 mb-8 shadow-inner relative overflow-hidden">
+                <div class="absolute -right-8 -top-8 w-24 h-24 bg-white/5 rounded-full"></div>
+                <h3 class="text-xs xs:text-sm font-black text-brand-coral tracking-wider text-center mb-3">
+                    💔 私も、遠回りだらけでした
+                </h3>
+                <p class="text-[11px] xs:text-xs leading-relaxed mb-3 text-center">
+                    自己流で副業に手を出し、気づけば<br>
+                    <span class="text-brand-coral font-bold text-xs xs:text-sm underline decoration-brand-coral decoration-2">150万円を失う</span>ところまでいきました。
+                </p>
+                <p class="text-[11px] xs:text-xs leading-relaxed text-gray-300 text-center">
+                    「私にはセンスがないんだ」と布団のなかで一人泣いた夜は、数え切れません。<br>
+                    子どものささやかなおねだりに、笑って応えられない自分が情けなかった。
+                </p>
+            </div>
+
+            <div class="text-center mb-8">
+                <p class="text-brand-deep text-lg animate-bounce"><i class="fa-solid fa-circle-chevron-down"></i></p>
+            </div>
+
+            <div class="bg-brand-peach p-5 rounded-3xl border border-brand-coral/40 mb-8">
+                <h3 class="text-xs xs:text-sm font-black text-brand-deep text-center mb-3">
+                    ✨ そこから抜け出せたのは「型」を知ってから
+                </h3>
+                <p class="text-[11px] xs:text-xs leading-relaxed text-brand-dark mb-4 text-center">
+                    試行錯誤の末にたどり着いたのは、<br>
+                    <strong>「AIを賢く使って、手堅くお家で収入をつくる実践ノウハウと神テンプレート」</strong>でした。
+                </p>
+                <div class="bg-white p-3 xs:p-4 rounded-xl border border-brand-light text-center space-y-2">
+                    <p class="text-xs font-bold text-brand-dark">今のあなたと私の違いは、才能ではありません。</p>
+                    <p class="text-[10px] xs:text-xs sm:text-sm font-black text-brand-deep tracking-tighter">
+                        「成果が出る『型』を知って、<br>失敗を避ける道を選んだかどうか」
+                    </p>
+                    <p class="text-[10px] text-gray-400">本当に、それだけなんです。</p>
+                </div>
+            </div>
+
+            <p class="text-xs xs:text-sm leading-relaxed text-center font-bold">
+                時間を切り売りする内職ではなく、<br>
+                <span class="text-brand-deep bg-yellow-100 px-1 py-0.5 rounded">「AIとSNS」を賢く味方につけて</span><br>
+                長く家庭を支える収入源を育てる。<br>
+                それが、家族と自分を守るいちばん現実的な選択だと思っています。
+            </p>
+        </section>
+
+        <!-- ============ LINE CTA ============ -->
+        <section class="py-12 px-6 bg-[#FEF6F3] text-center border-t border-brand-light relative">
+            <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-accent text-white font-extrabold text-[10px] xs:text-xs px-5 py-2 rounded-full shadow-md tracking-wider whitespace-nowrap">
+                👑 無料で今すぐ手に入る 👑
+            </div>
+
+            <div class="mt-4 bg-white p-5 xs:p-6 rounded-3xl shadow-md border border-brand-light">
+                <span class="text-[10px] font-bold text-brand-deep tracking-wider block mb-1">ノウハウを凝縮した限定デジタルブック</span>
+                <h3 class="serif-title text-lg xs:text-xl font-extrabold text-brand-dark leading-snug mb-1">
+                    『AIマネタイズの教科書』
+                </h3>
+                <p class="text-[10px] text-gray-400 mb-5">公式LINEにお友だち登録していただいた方限定で<br>無料プレゼント中🎁</p>
+
+                <div class="w-full rounded-2xl overflow-hidden shadow-sm border border-brand-light bg-brand-peach/10 mb-5">
+                    <img src="https://i.imgur.com/6RposMA_d.webp?maxwidth=760&fidelity=grand"
+                         onerror="this.style.display='none';"
+                         alt="教科書プレゼントイメージ"
+                         class="w-full h-auto object-cover max-h-[160px]">
+                </div>
+
+                <div class="text-left bg-brand-peach/50 p-4 rounded-2xl border border-brand-light space-y-3 mb-5">
+                    <p class="text-xs font-bold text-brand-deep text-center mb-1 pb-2 border-b border-dashed border-brand-light">
+                        📖 教科書の中身を少しだけご紹介！
+                    </p>
+                    <div class="space-y-2.5">
+                        <div class="flex items-center gap-2">
+                            <span class="text-xs text-brand-accent">💎</span>
+                            <p class="text-xs font-bold text-brand-dark"><strong class="text-brand-deep">第一章:</strong> いま一番始めやすいAIマネタイズ手法</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-xs text-brand-accent">💎</span>
+                            <p class="text-xs font-bold text-brand-dark"><strong class="text-brand-deep">第二章:</strong> ChatGPT収益化プロンプト</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-xs text-brand-accent">💎</span>
+                            <p class="text-xs font-bold text-brand-dark"><strong class="text-brand-deep">第三章:</strong> AIマネタイズ神テンプレート</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-xs text-brand-accent">💎</span>
+                            <p class="text-xs font-bold text-brand-dark"><strong class="text-brand-deep">第四章:</strong> マネタイズのための生成AIツール3選</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-xs text-brand-accent">💎</span>
+                            <p class="text-xs font-bold text-brand-dark"><strong class="text-brand-deep">第五章:</strong> AI×SNSで収益を生むリアル事例</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="text-[11px] text-brand-dark leading-relaxed mb-5">
+                    150万円の損失からようやく掴み取った、<br>
+                    「寝かしつけ後の30分が"収入を生む時間"に変わる実践マニュアル」を一冊に詰め込みました。
+                </p>
+
+                <div class="bg-[#EEF9F1] border border-[#CDEBD3] p-4 rounded-2xl mb-5 text-left">
+                    <span class="bg-[#06C755]/10 text-[#06C755] font-extrabold text-[9px] px-2 py-0.5 rounded-md">特別企画</span>
+                    <h4 class="text-xs font-bold text-brand-dark mt-1">希望者限定『AI収益化サポート会』の実施</h4>
+                    <p class="text-[10px] text-gray-500 mt-1 leading-relaxed">
+                        LINE読者様限定で、お家で安全に進められる特別なサポート会をご案内しています🌱
+                    </p>
+                </div>
+
+                <a href="https://sub.aione.co.jp/line/open/ISEBuerKAyih?mtid=dpdPEBMvLdsV" target="_blank" rel="noopener noreferrer" class="pulse-btn block bg-gradient-to-r from-brand-line via-[#0ddb63] to-brand-line text-white rounded-2xl p-4.5 xs:p-5 shadow-md hover:shadow-lg transition-all group relative overflow-hidden">
+                    <div class="absolute -right-6 -bottom-6 w-16 h-16 bg-white/10 rounded-full"></div>
+                    <div class="flex items-center justify-center gap-2.5">
+                        <i class="fa-brands fa-line text-xl xs:text-2xl"></i>
+                        <span class="font-extrabold tracking-wider text-xs xs:text-sm">公式LINEで無料で受け取る</span>
+                    </div>
+                    <p class="text-[9px] mt-1 text-white/95">※配布は期間限定です。お早めにお受け取りください</p>
+                </a>
+            </div>
+
+            <p class="text-[10px] text-gray-400 mt-5 leading-relaxed">
+                ※AIの進化に合わせて内容は今後アップデートする場合があります。<br>無料配布の内容・条件は予告なく変更されることがあります。
+            </p>
+        </section>
+
+        <footer class="bg-brand-dark text-white/70 text-center py-8 px-4 text-[10px] border-t border-white/5 mt-auto">
+            <a href="https://www.instagram.com/mina_ai_fukugyo/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-white hover:text-brand-coral transition-colors mb-3 bg-white/5 px-3 py-1.5 rounded-full border border-white/10">
+                <i class="fa-brands fa-instagram text-xs"></i>
+                <span class="text-[10px]">Instagram: @mina_ai_fukugyo</span>
+            </a>
+            <p class="mb-4 text-white/50">みな ｜ AI×SNSで在宅収入を叶える主婦</p>
+
+            <p class="text-white/40 leading-relaxed max-w-md mx-auto mb-5">
+                本ページの内容は手順の解説であり、収益を保証するものではありません。成果は個人の状況により異なります。<br><br>
+                外部サービス（Amazon KDP、ChatGPT、Canva、公式LINEなど）の条件・規約・料率は変更される場合があるため、利用前に各サービスの公式情報をご確認ください。
+            </p>
+
+            <nav class="flex items-center justify-center gap-3 text-white/60 mb-5">
+                <a href="#top" class="hover:text-brand-coral transition-colors">トップページ</a>
+                <span class="text-white/20">｜</span>
+                <a href="about.html" class="hover:text-brand-coral transition-colors">運営者情報</a>
+                <span class="text-white/20">｜</span>
+                <a href="privacy.html" class="hover:text-brand-coral transition-colors">プライバシーポリシー</a>
+            </nav>
+
+            <p class="text-white/40">&copy; 2026 みな（@mina_ai_fukugyo）. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        function copyToClipboard(elementId, button) {
+            const codeElement = document.getElementById(elementId);
+            const textToCopy = codeElement.innerText;
+
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                const toast = document.getElementById('toast');
+                toast.classList.remove('opacity-0', 'pointer-events-none');
+                toast.classList.add('opacity-100');
+                toast.style.transform = 'translate(-50%, 0px)';
+
+                const originalText = button.innerHTML;
+                button.innerHTML = `<i class="fa-solid fa-check"></i> <span>コピー完了</span>`;
+                button.classList.remove('bg-brand-coral');
+                button.classList.add('bg-green-600');
+
+                setTimeout(() => {
+                    toast.classList.add('opacity-0', 'pointer-events-none');
+                    toast.classList.remove('opacity-100');
+                    toast.style.transform = 'translate(-50%, -10px)';
+
+                    button.innerHTML = originalText;
+                    button.classList.remove('bg-green-600');
+                    button.classList.add('bg-brand-coral');
+                }, 2000);
+            }).catch(err => {
+                console.error('コピーに失敗しました: ', err);
+            });
+        }
+    </script>
+</body>
+</html>
